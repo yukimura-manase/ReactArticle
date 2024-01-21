@@ -7,6 +7,7 @@ interface NodeType {
   label: string;
   shape: string;
   image: string;
+  url?: string;
 }
 
 interface EdgeType {
@@ -48,6 +49,7 @@ const controlNodes = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://masanyon.com/", // ノードをクリックしたときに開くURL
   },
   // 2つ目以降の Node設定
   {
@@ -56,6 +58,7 @@ const controlNodes = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://pbs.twimg.com/profile_images/1620230831892754432/2SQFDJSA_400x400.jpg",
+    url: "https://masanyon.com/", // ノードをクリックしたときに開くURL
   },
   {
     id: "girl_2",
@@ -63,6 +66,7 @@ const controlNodes = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://masanyon.com/", // ノードをクリックしたときに開くURL
   },
   {
     id: "girl_3",
@@ -70,6 +74,7 @@ const controlNodes = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://masanyon.com/", // ノードをクリックしたときに開くURL
   },
   {
     id: "space_broccoli",
@@ -77,6 +82,7 @@ const controlNodes = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://masanyon.com/", // ノードをクリックしたときに開くURL
   },
 ];
 
@@ -87,6 +93,7 @@ const Node_1 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://zenn.dev/p/aiq_dev", // ノードをクリックしたときに開くURL
   },
   {
     id: "copy_robo_1_2",
@@ -94,6 +101,7 @@ const Node_1 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robo_1_3",
@@ -101,6 +109,7 @@ const Node_1 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robo_1_4",
@@ -108,6 +117,7 @@ const Node_1 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robo_1_5",
@@ -115,6 +125,7 @@ const Node_1 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://dzdih2euft5nz.cloudfront.net/users/avatars/909381?1664074598",
+    url: "https://zenn.dev/p/aiq_dev",
   },
 ];
 
@@ -125,6 +136,7 @@ const Node_2 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_girl_2_2",
@@ -132,6 +144,7 @@ const Node_2 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_girl_2_3",
@@ -139,6 +152,7 @@ const Node_2 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_girl_2_4",
@@ -146,6 +160,7 @@ const Node_2 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_girl_2_5",
@@ -153,6 +168,7 @@ const Node_2 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://m.media-amazon.com/images/I/61kr0JvtxML._AC_UF894,1000_QL80_.jpg",
+    url: "https://zenn.dev/p/aiq_dev",
   },
 ];
 
@@ -163,6 +179,7 @@ const Nodes_3 = [
     shape: "circularImage",
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "nw_2",
@@ -170,6 +187,7 @@ const Nodes_3 = [
     shape: "circularImage",
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "nw_3",
@@ -177,6 +195,7 @@ const Nodes_3 = [
     shape: "circularImage",
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "nw_4",
@@ -184,6 +203,7 @@ const Nodes_3 = [
     shape: "circularImage",
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "nw_5",
@@ -191,6 +211,7 @@ const Nodes_3 = [
     shape: "circularImage",
     image:
       "https://eiga.k-img.com/images/person/88674/9169af40192118d8/640.jpg?1627093516",
+    url: "https://zenn.dev/p/aiq_dev",
   },
 ];
 
@@ -201,6 +222,7 @@ const Nodes_4 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://lh3.googleusercontent.com/a-/AOh14GhYX8r5eB8cdfa1yTA6hD1axnAibrQQzBwMDmxHuQQ=s96-c",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robotama_2",
@@ -208,6 +230,7 @@ const Nodes_4 = [
     shape: "circularImage",
     image:
       "https://lh3.googleusercontent.com/a-/AOh14GhYX8r5eB8cdfa1yTA6hD1axnAibrQQzBwMDmxHuQQ=s96-c",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robotama_3",
@@ -215,6 +238,7 @@ const Nodes_4 = [
     shape: "circularImage",
     image:
       "https://lh3.googleusercontent.com/a-/AOh14GhYX8r5eB8cdfa1yTA6hD1axnAibrQQzBwMDmxHuQQ=s96-c",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robotama_4",
@@ -222,6 +246,7 @@ const Nodes_4 = [
     shape: "circularImage",
     image:
       "https://lh3.googleusercontent.com/a-/AOh14GhYX8r5eB8cdfa1yTA6hD1axnAibrQQzBwMDmxHuQQ=s96-c",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_robotama_5",
@@ -229,6 +254,7 @@ const Nodes_4 = [
     shape: "circularImage",
     image:
       "https://lh3.googleusercontent.com/a-/AOh14GhYX8r5eB8cdfa1yTA6hD1axnAibrQQzBwMDmxHuQQ=s96-c",
+    url: "https://zenn.dev/p/aiq_dev",
   },
 ];
 
@@ -239,6 +265,7 @@ const Nodes_5 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_space_broccoli_2",
@@ -246,6 +273,7 @@ const Nodes_5 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_space_broccoli_3",
@@ -253,6 +281,7 @@ const Nodes_5 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_space_broccoli_4",
@@ -260,6 +289,7 @@ const Nodes_5 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://zenn.dev/p/aiq_dev",
   },
   {
     id: "copy_space_broccoli_5",
@@ -267,6 +297,7 @@ const Nodes_5 = [
     shape: "circularImage", // これだけで、丸い写真になる！！
     image:
       "https://d1q9av5b648rmv.cloudfront.net/v3/500x500/cushion/free/white/front/12256617/1664106143-512x512.png.7.3047+0.0+0.0.jpg?h=1af54b2d021d1ca0ed9c8f1210d7d7122231c91f&printed=true",
+    url: "https://zenn.dev/p/aiq_dev",
   },
 ];
 
@@ -359,6 +390,21 @@ const NetworkGraph = () => {
         options
       );
     }
+
+    // Click イベントハンドラ を追加する
+    network.on("click", (params: { nodes: number[] }) => {
+      if (params.nodes.length > 0) {
+        // クリックした Node のIDを取得する
+        const nodeId = params.nodes[0];
+        /** クリックした Node のIDから、該当の Nodeを取得する */
+        const node = nodes.get(nodeId);
+        // URLが存在する場合の処理
+        if (node?.url) {
+          /** クリックしたノードのURLを取得して、Openする */
+          window.open(node.url, "_blank");
+        }
+      }
+    });
   }, []);
 
   return (

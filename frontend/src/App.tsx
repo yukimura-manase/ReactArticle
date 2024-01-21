@@ -1,7 +1,7 @@
-import React from "react";
 // import "./App.css";
 // import SelectRangeCalender from "./components/ui-elements/date/SelectRangeCalender";
 import NetworkGraph from "./components/ui-parts/network-graph/NetworkGraph";
+import DialogTest from "./views/test/DialogTest";
 
 function App() {
   return (
@@ -11,6 +11,9 @@ function App() {
         <div>{/* <SelectRangeCalender /> */}</div>
         <div>
           <NetworkGraph />
+        </div>
+        <div>
+          <DialogTest />
         </div>
       </main>
     </div>
